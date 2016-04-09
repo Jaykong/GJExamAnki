@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A4D4881CB885950034DA88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4871CB885950034DA88 /* main.m */; };
+		F4A4D48B1CB885950034DA88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D48A1CB885950034DA88 /* AppDelegate.m */; };
+		F4A4D4931CB885960034DA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A4D4921CB885960034DA88 /* Assets.xcassets */; };
+		F4A4D4961CB885960034DA88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A4D4941CB885960034DA88 /* LaunchScreen.storyboard */; };
+		F4A4D4A11CB885960034DA88 /* GJExamAnkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4A01CB885960034DA88 /* GJExamAnkiTests.m */; };
+		F4A4D4AC1CB885960034DA88 /* GJExamAnkiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4AB1CB885960034DA88 /* GJExamAnkiUITests.m */; };
+		F4A4D4BA1CB885DE0034DA88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A4D4B91CB885DE0034DA88 /* Main.storyboard */; };
+		F4A4D4C01CB886BA0034DA88 /* EAPaperInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4BF1CB886BA0034DA88 /* EAPaperInfoViewController.m */; };
+		F4A4D4C61CB886EA0034DA88 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4C51CB886EA0034DA88 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.m */; };
+		F4A4D4C91CB886F80034DA88 /* EAWrongQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4C81CB886F80034DA88 /* EAWrongQuestionViewController.m */; };
+		F4A4D4CC1CB8870A0034DA88 /* EAFlashCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4CB1CB8870A0034DA88 /* EAFlashCardViewController.m */; };
+		F4A4D4CF1CB8871E0034DA88 /* EAFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4CE1CB8871E0034DA88 /* EAFeedbackViewController.m */; };
+		F4A4D4D21CB887350034DA88 /* EAAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4D11CB887350034DA88 /* EAAboutViewController.m */; };
+		F4A4D4D51CB887430034DA88 /* EAShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4D41CB887430034DA88 /* EAShareViewController.m */; };
+		F4A4D4D81CB887510034DA88 /* EAImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4D4D71CB887510034DA88 /* EAImportViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4A4D49D1CB885960034DA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A4D47B1CB885950034DA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4A4D4821CB885950034DA88;
+			remoteInfo = GJExamAnki;
+		};
+		F4A4D4A81CB885960034DA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A4D47B1CB885950034DA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4A4D4821CB885950034DA88;
+			remoteInfo = GJExamAnki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4A4D4831CB885950034DA88 /* GJExamAnki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJExamAnki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A4D4871CB885950034DA88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4A4D4891CB885950034DA88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4A4D48A1CB885950034DA88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4A4D4921CB885960034DA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4A4D4951CB885960034DA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4A4D4971CB885960034DA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A4D49C1CB885960034DA88 /* GJExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A4D4A01CB885960034DA88 /* GJExamAnkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJExamAnkiTests.m; sourceTree = "<group>"; };
+		F4A4D4A21CB885960034DA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A4D4A71CB885960034DA88 /* GJExamAnkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJExamAnkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A4D4AB1CB885960034DA88 /* GJExamAnkiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJExamAnkiUITests.m; sourceTree = "<group>"; };
+		F4A4D4AD1CB885960034DA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A4D4B91CB885DE0034DA88 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F4A4D4BE1CB886BA0034DA88 /* EAPaperInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAPaperInfoViewController.h; sourceTree = "<group>"; };
+		F4A4D4BF1CB886BA0034DA88 /* EAPaperInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAPaperInfoViewController.m; sourceTree = "<group>"; };
+		F4A4D4C41CB886EA0034DA88 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EABookmarkQuestionViewController EABookmarkQuestionViewController.h"; sourceTree = "<group>"; };
+		F4A4D4C51CB886EA0034DA88 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EABookmarkQuestionViewController EABookmarkQuestionViewController.m"; sourceTree = "<group>"; };
+		F4A4D4C71CB886F80034DA88 /* EAWrongQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAWrongQuestionViewController.h; sourceTree = "<group>"; };
+		F4A4D4C81CB886F80034DA88 /* EAWrongQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAWrongQuestionViewController.m; sourceTree = "<group>"; };
+		F4A4D4CA1CB8870A0034DA88 /* EAFlashCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAFlashCardViewController.h; sourceTree = "<group>"; };
+		F4A4D4CB1CB8870A0034DA88 /* EAFlashCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAFlashCardViewController.m; sourceTree = "<group>"; };
+		F4A4D4CD1CB8871E0034DA88 /* EAFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAFeedbackViewController.h; sourceTree = "<group>"; };
+		F4A4D4CE1CB8871E0034DA88 /* EAFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAFeedbackViewController.m; sourceTree = "<group>"; };
+		F4A4D4D01CB887350034DA88 /* EAAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAboutViewController.h; sourceTree = "<group>"; };
+		F4A4D4D11CB887350034DA88 /* EAAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAboutViewController.m; sourceTree = "<group>"; };
+		F4A4D4D31CB887430034DA88 /* EAShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAShareViewController.h; sourceTree = "<group>"; };
+		F4A4D4D41CB887430034DA88 /* EAShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAShareViewController.m; sourceTree = "<group>"; };
+		F4A4D4D61CB887510034DA88 /* EAImportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAImportViewController.h; sourceTree = "<group>"; };
+		F4A4D4D71CB887510034DA88 /* EAImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAImportViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A4D4801CB885950034DA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A4D4991CB885960034DA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A4D4A41CB885960034DA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A4D47A1CB885950034DA88 = {
+			isa = PBXGroup;
+			children = (
+				F4A4D4851CB885950034DA88 /* GJExamAnki */,
+				F4A4D49F1CB885960034DA88 /* GJExamAnkiTests */,
+				F4A4D4AA1CB885960034DA88 /* GJExamAnkiUITests */,
+				F4A4D4841CB885950034DA88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A4D4841CB885950034DA88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4D4831CB885950034DA88 /* GJExamAnki.app */,
+				F4A4D49C1CB885960034DA88 /* GJExamAnkiTests.xctest */,
+				F4A4D4A71CB885960034DA88 /* GJExamAnkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A4D4851CB885950034DA88 /* GJExamAnki */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4D4891CB885950034DA88 /* AppDelegate.h */,
+				F4A4D48A1CB885950034DA88 /* AppDelegate.m */,
+				F4A4D4BE1CB886BA0034DA88 /* EAPaperInfoViewController.h */,
+				F4A4D4BF1CB886BA0034DA88 /* EAPaperInfoViewController.m */,
+				F4A4D4C41CB886EA0034DA88 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.h */,
+				F4A4D4C51CB886EA0034DA88 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.m */,
+				F4A4D4C71CB886F80034DA88 /* EAWrongQuestionViewController.h */,
+				F4A4D4C81CB886F80034DA88 /* EAWrongQuestionViewController.m */,
+				F4A4D4CA1CB8870A0034DA88 /* EAFlashCardViewController.h */,
+				F4A4D4CB1CB8870A0034DA88 /* EAFlashCardViewController.m */,
+				F4A4D4CD1CB8871E0034DA88 /* EAFeedbackViewController.h */,
+				F4A4D4CE1CB8871E0034DA88 /* EAFeedbackViewController.m */,
+				F4A4D4D01CB887350034DA88 /* EAAboutViewController.h */,
+				F4A4D4D11CB887350034DA88 /* EAAboutViewController.m */,
+				F4A4D4D31CB887430034DA88 /* EAShareViewController.h */,
+				F4A4D4D41CB887430034DA88 /* EAShareViewController.m */,
+				F4A4D4D61CB887510034DA88 /* EAImportViewController.h */,
+				F4A4D4D71CB887510034DA88 /* EAImportViewController.m */,
+				F4A4D4B91CB885DE0034DA88 /* Main.storyboard */,
+				F4A4D4921CB885960034DA88 /* Assets.xcassets */,
+				F4A4D4941CB885960034DA88 /* LaunchScreen.storyboard */,
+				F4A4D4971CB885960034DA88 /* Info.plist */,
+				F4A4D4861CB885950034DA88 /* Supporting Files */,
+			);
+			path = GJExamAnki;
+			sourceTree = "<group>";
+		};
+		F4A4D4861CB885950034DA88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4D4871CB885950034DA88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4A4D49F1CB885960034DA88 /* GJExamAnkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4D4A01CB885960034DA88 /* GJExamAnkiTests.m */,
+				F4A4D4A21CB885960034DA88 /* Info.plist */,
+			);
+			path = GJExamAnkiTests;
+			sourceTree = "<group>";
+		};
+		F4A4D4AA1CB885960034DA88 /* GJExamAnkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4D4AB1CB885960034DA88 /* GJExamAnkiUITests.m */,
+				F4A4D4AD1CB885960034DA88 /* Info.plist */,
+			);
+			path = GJExamAnkiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A4D4821CB885950034DA88 /* GJExamAnki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A4D4B01CB885960034DA88 /* Build configuration list for PBXNativeTarget "GJExamAnki" */;
+			buildPhases = (
+				F4A4D47F1CB885950034DA88 /* Sources */,
+				F4A4D4801CB885950034DA88 /* Frameworks */,
+				F4A4D4811CB885950034DA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJExamAnki;
+			productName = GJExamAnki;
+			productReference = F4A4D4831CB885950034DA88 /* GJExamAnki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4A4D49B1CB885960034DA88 /* GJExamAnkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A4D4B31CB885960034DA88 /* Build configuration list for PBXNativeTarget "GJExamAnkiTests" */;
+			buildPhases = (
+				F4A4D4981CB885960034DA88 /* Sources */,
+				F4A4D4991CB885960034DA88 /* Frameworks */,
+				F4A4D49A1CB885960034DA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4A4D49E1CB885960034DA88 /* PBXTargetDependency */,
+			);
+			name = GJExamAnkiTests;
+			productName = GJExamAnkiTests;
+			productReference = F4A4D49C1CB885960034DA88 /* GJExamAnkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4A4D4A61CB885960034DA88 /* GJExamAnkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A4D4B61CB885960034DA88 /* Build configuration list for PBXNativeTarget "GJExamAnkiUITests" */;
+			buildPhases = (
+				F4A4D4A31CB885960034DA88 /* Sources */,
+				F4A4D4A41CB885960034DA88 /* Frameworks */,
+				F4A4D4A51CB885960034DA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4A4D4A91CB885960034DA88 /* PBXTargetDependency */,
+			);
+			name = GJExamAnkiUITests;
+			productName = GJExamAnkiUITests;
+			productReference = F4A4D4A71CB885960034DA88 /* GJExamAnkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A4D47B1CB885950034DA88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = trainer;
+				TargetAttributes = {
+					F4A4D4821CB885950034DA88 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 67QHZUNPNV;
+					};
+					F4A4D49B1CB885960034DA88 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 67QHZUNPNV;
+						TestTargetID = F4A4D4821CB885950034DA88;
+					};
+					F4A4D4A61CB885960034DA88 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 67QHZUNPNV;
+						TestTargetID = F4A4D4821CB885950034DA88;
+					};
+				};
+			};
+			buildConfigurationList = F4A4D47E1CB885950034DA88 /* Build configuration list for PBXProject "GJExamAnki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4A4D47A1CB885950034DA88;
+			productRefGroup = F4A4D4841CB885950034DA88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A4D4821CB885950034DA88 /* GJExamAnki */,
+				F4A4D49B1CB885960034DA88 /* GJExamAnkiTests */,
+				F4A4D4A61CB885960034DA88 /* GJExamAnkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4A4D4811CB885950034DA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A4D4BA1CB885DE0034DA88 /* Main.storyboard in Resources */,
+				F4A4D4961CB885960034DA88 /* LaunchScreen.storyboard in Resources */,
+				F4A4D4931CB885960034DA88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A4D49A1CB885960034DA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A4D4A51CB885960034DA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A4D47F1CB885950034DA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A4D4C61CB886EA0034DA88 /* EABookmarkQuestionViewController EABookmarkQuestionViewController.m in Sources */,
+				F4A4D48B1CB885950034DA88 /* AppDelegate.m in Sources */,
+				F4A4D4D21CB887350034DA88 /* EAAboutViewController.m in Sources */,
+				F4A4D4C91CB886F80034DA88 /* EAWrongQuestionViewController.m in Sources */,
+				F4A4D4CF1CB8871E0034DA88 /* EAFeedbackViewController.m in Sources */,
+				F4A4D4D81CB887510034DA88 /* EAImportViewController.m in Sources */,
+				F4A4D4CC1CB8870A0034DA88 /* EAFlashCardViewController.m in Sources */,
+				F4A4D4881CB885950034DA88 /* main.m in Sources */,
+				F4A4D4C01CB886BA0034DA88 /* EAPaperInfoViewController.m in Sources */,
+				F4A4D4D51CB887430034DA88 /* EAShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A4D4981CB885960034DA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A4D4A11CB885960034DA88 /* GJExamAnkiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A4D4A31CB885960034DA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A4D4AC1CB885960034DA88 /* GJExamAnkiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4A4D49E1CB885960034DA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4A4D4821CB885950034DA88 /* GJExamAnki */;
+			targetProxy = F4A4D49D1CB885960034DA88 /* PBXContainerItemProxy */;
+		};
+		F4A4D4A91CB885960034DA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4A4D4821CB885950034DA88 /* GJExamAnki */;
+			targetProxy = F4A4D4A81CB885960034DA88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4A4D4941CB885960034DA88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A4D4951CB885960034DA88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4A4D4AE1CB885960034DA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4A4D4AF1CB885960034DA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4A4D4B11CB885960034DA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GJExamAnki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.GJ.GJExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4A4D4B21CB885960034DA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GJExamAnki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.GJ.GJExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4A4D4B41CB885960034DA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GJExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.GJ.GJExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJExamAnki.app/GJExamAnki";
+			};
+			name = Debug;
+		};
+		F4A4D4B51CB885960034DA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GJExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.GJ.GJExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJExamAnki.app/GJExamAnki";
+			};
+			name = Release;
+		};
+		F4A4D4B71CB885960034DA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GJExamAnkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.GJ.GJExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GJExamAnki;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F4A4D4B81CB885960034DA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GJExamAnkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unversial.GJ.GJExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GJExamAnki;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A4D47E1CB885950034DA88 /* Build configuration list for PBXProject "GJExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A4D4AE1CB885960034DA88 /* Debug */,
+				F4A4D4AF1CB885960034DA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A4D4B01CB885960034DA88 /* Build configuration list for PBXNativeTarget "GJExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A4D4B11CB885960034DA88 /* Debug */,
+				F4A4D4B21CB885960034DA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4A4D4B31CB885960034DA88 /* Build configuration list for PBXNativeTarget "GJExamAnkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A4D4B41CB885960034DA88 /* Debug */,
+				F4A4D4B51CB885960034DA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4A4D4B61CB885960034DA88 /* Build configuration list for PBXNativeTarget "GJExamAnkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A4D4B71CB885960034DA88 /* Debug */,
+				F4A4D4B81CB885960034DA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A4D47B1CB885950034DA88 /* Project object */;
+}

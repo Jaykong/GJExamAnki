@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F450232E1CB79C4100E236E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F450232D1CB79C4100E236E7 /* main.m */; };
 		F45023311CB79C4100E236E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F45023301CB79C4100E236E7 /* AppDelegate.m */; };
-		F45023341CB79C4100E236E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45023331CB79C4100E236E7 /* ViewController.m */; };
 		F45023371CB79C4100E236E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45023351CB79C4100E236E7 /* Main.storyboard */; };
 		F45023391CB79C4100E236E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45023381CB79C4100E236E7 /* Assets.xcassets */; };
 		F450233C1CB79C4100E236E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F450233A1CB79C4100E236E7 /* LaunchScreen.storyboard */; };
@@ -47,8 +46,6 @@
 		F450232D1CB79C4100E236E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F450232F1CB79C4100E236E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F45023301CB79C4100E236E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F45023321CB79C4100E236E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F45023331CB79C4100E236E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F45023361CB79C4100E236E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F45023381CB79C4100E236E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F450233B1CB79C4100E236E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -127,8 +124,6 @@
 			children = (
 				F450232F1CB79C4100E236E7 /* AppDelegate.h */,
 				F45023301CB79C4100E236E7 /* AppDelegate.m */,
-				F45023321CB79C4100E236E7 /* ViewController.h */,
-				F45023331CB79C4100E236E7 /* ViewController.m */,
 				F450239E1CB7A1E600E236E7 /* GJEAPaperInfoViewController.h */,
 				F450239F1CB7A1E600E236E7 /* GJEAPaperInfoViewController.m */,
 				F45023A11CB7A1F200E236E7 /* GJEABookmarkQuestionViewController.h */,
@@ -314,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45023341CB79C4100E236E7 /* ViewController.m in Sources */,
 				F45023311CB79C4100E236E7 /* AppDelegate.m in Sources */,
 				F45023AC1CB7A22C00E236E7 /* GJEAFeedbackViewController.m in Sources */,
 				F45023B21CB7A25000E236E7 /* GJEAShareViewController.m in Sources */,
@@ -550,6 +544,7 @@
 				F45023581CB79C4200E236E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F45023591CB79C4200E236E7 /* Build configuration list for PBXNativeTarget "GJExamAnkiTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +553,7 @@
 				F450235B1CB79C4200E236E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F450235C1CB79C4200E236E7 /* Build configuration list for PBXNativeTarget "GJExamAnkiUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +562,7 @@
 				F450235E1CB79C4200E236E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

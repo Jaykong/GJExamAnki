@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  GJExamAnki
 //
-//  Created by Simon on 16/4/8.
+//  Created by Simon on 16/4/9.
 //  Copyright © 2016年 trainer. All rights reserved.
 //
 
